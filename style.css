@@ -1,0 +1,93 @@
+.col1{
+    float: left;
+    width: 60% !important;
+    margin-left: 21px;
+
+   }
+   .col1-parent{
+    border-bottom: 4px dotted rgb(222,227,234);
+   }
+   .col2{
+    border-left-style: dotted;
+   float: left;
+     width: 25%;
+  padding-left: 50px;
+    margin-left: 100px;
+    height: 250px;
+   }
+   .P-newhop{
+    font-size: 20px;
+    color: rgb(80,117,166);
+   }
+   .parent1-div{
+    display: flex;
+   }
+   .d-nauman{
+    font-size: 14px;
+    padding-left: 10px;
+    color: rgb(65,92,129) ;
+   }
+   .link{
+    margin-top: 50px;
+   }
+   .imag{
+    width: 100px;
+   }
+   .parent2{
+    display: flex;
+    padding-top: 10px;
+   }
+   .parent3{
+    padding-top: 15px;
+   }
+   .main-div{
+    display: flex;
+   }
+   .about{
+    float: right;
+    padding: 7px;
+    color: rgb(106,106,131);
+   }
+   .child-div3{
+    margin-left: 176px;
+   }
+   .child-div{
+    margin-left: 15px;
+   }
+   .main-div2{
+     display: flex;
+   }
+   .to-maintain{
+    color: rgb(121, 137, 163);
+    font-size: 17px;
+    font-weight: 600;
+   }
+   .discription1{
+    padding-left: 48px;
+   }
+   
+   .col1-parent2{
+    margin-top: 65px;
+    margin-bottom: 50px;
+   }
+   .wh-you{
+    color: rgb(65,92,129);
+    font-size: 40px;
+font-weight: 800;
+   }
+   .history{
+    color: rgb(65,92,129);
+   }
+   .newhope{
+    color: rgb(111,201,241);
+
+    font-size: 30px;
+    font-weight: 800;
+   }
+   .march{
+    color:rgb(65,92,129) ;
+   }
+   .more{
+    text-decoration: none !important;
+    color:rgb(111,201,241) !important ;
+   }
