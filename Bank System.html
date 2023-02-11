@@ -1,0 +1,40 @@
+<script>
+    const useroption=prompt("Enter the Value");
+    var total=10000;
+    var name="Erbaz Kashif";
+    var address="Sardargarh, RYK";
+    var typeofaccount="Current";
+    if(useroption==1)
+    {
+        
+        var add  =+prompt("Enter the amount to be deposited");
+        
+        console.log("Account Created")
+        console.log("Name = "+name);
+        console.log("Address = "+address);
+        console.log("Type of Account = "+typeofaccount);
+        console.log("Total Balance = "+add);
+        
+    }
+    else if(useroption==2)
+    {
+        var deposit=+prompt("Enter the amount to be deposited");
+        total=total+deposit;
+        console.log("Deposit Amount = "+deposit);
+        console.log("Total Balance = "+total);
+    }
+    else if(useroption==3)
+    {
+        const sub=+prompt("Enter the amount to be withdrawn")
+        total=total-sub;
+        console.log("Amount Withdrawn = "+ sub);
+        console.log("Available Balance = "+total);
+    }
+    else if(useroption==4)
+    {
+        console.log("Name = "+name);
+        console.log("Address = "+address);
+        console.log("Type of Account = "+typeofaccount);
+        console.log("Total Balance = "+total);
+    }
+</script>
